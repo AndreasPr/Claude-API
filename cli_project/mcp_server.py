@@ -48,6 +48,7 @@ def fetch_doc(doc_id: str) -> str:
         raise ValueError(f"Doc with id {doc_id} not found")
     return docs[doc_id]
 
+
 # TODO: Write a prompt to rewrite a doc in markdown format
 # TODO: Write a prompt to summarize a doc
 
